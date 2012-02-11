@@ -1,0 +1,155 @@
+The system is: Darwin - 11.2.0 - i386
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/gcc 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/Users/mattetti/Code/RM/box2d/Contributions/Platforms/iPhone/CMakeFiles/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/g++ 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/Users/mattetti/Code/RM/box2d/Contributions/Platforms/iPhone/CMakeFiles/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /Users/mattetti/Code/RM/box2d/Contributions/Platforms/iPhone/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/local/Cellar/cmake/2.8.7/bin/cmakexbuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTryCompileExec -configuration Debug
+2012-02-10 12:43:40.277 xcodebuild[46549:80b] Error loading /Users/mattetti/Library/Application Support/Developer/Shared/Xcode/Plug-ins/MacRubyXcodePlugin.xcplugin/Contents/MacOS/MacRubyXcodePlugin:  dlopen(/Users/mattetti/Library/Application Support/Developer/Shared/Xcode/Plug-ins/MacRubyXcodePlugin.xcplugin/Contents/MacOS/MacRubyXcodePlugin, 265): Library not loaded: /Library/Frameworks/MacRuby.framework/Versions/0.11/usr/lib/libmacruby.dylib
+  Referenced from: /Users/mattetti/Library/Application Support/Developer/Shared/Xcode/Plug-ins/MacRubyXcodePlugin.xcplugin/Contents/MacOS/MacRubyXcodePlugin
+  Reason: image not found
+2012-02-10 12:43:40.277 xcodebuild[46549:80b] WARNING: Failed to load plugin at: /Users/mattetti/Library/Application Support/Developer/Shared/Xcode/Plug-ins/MacRubyXcodePlugin.xcplugin, skipping.  Could not load bundle.
+=== BUILD NATIVE TARGET cmTryCompileExec OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+Check dependencies
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec.build/Objects-normal/x86_64/testCCompiler.o testCCompiler.c normal x86_64 c com.apple.compilers.llvmgcc42
+    cd /Users/mattetti/Code/RM/box2d/Contributions/Platforms/iPhone/CMakeFiles/CMakeTmp
+    /Developer/usr/bin/llvm-gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 "-DCMAKE_INTDIR=\"Debug\"" -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.7 -gdwarf-2 -I/Users/mattetti/Code/RM/box2d/Contributions/Platforms/iPhone/CMakeFiles/CMakeTmp/Debug/include -I/Users/mattetti/Code/RM/box2d/Contributions/Platforms/iPhone/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec.build/DerivedSources/x86_64 -I/Users/mattetti/Code/RM/box2d/Contributions/Platforms/iPhone/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/mattetti/Code/RM/box2d/Contributions/Platforms/iPhone/CMakeFiles/CMakeTmp/Debug -c /Users/mattetti/Code/RM/box2d/Contributions/Platforms/iPhone/CMakeFiles/CMakeTmp/testCCompiler.c -o /Users/mattetti/Code/RM/box2d/Contributions/Platforms/iPhone/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec.build/Objects-normal/x86_64/testCCompiler.o
+
+Ld Debug/cmTryCompileExec normal x86_64
+    cd /Users/mattetti/Code/RM/box2d/Contributions/Platforms/iPhone/CMakeFiles/CMakeTmp
+    /Developer/usr/bin/llvm-gcc-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.7.sdk -L/Users/mattetti/Code/RM/box2d/Contributions/Platforms/iPhone/CMakeFiles/CMakeTmp/Debug -F/Users/mattetti/Code/RM/box2d/Contributions/Platforms/iPhone/CMakeFiles/CMakeTmp/Debug -filelist /Users/mattetti/Code/RM/box2d/Contributions/Platforms/iPhone/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec.build/Objects-normal/x86_64/cmTryCompileExec.LinkFileList -mmacosx-version-min=10.7 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -o /Users/mattetti/Code/RM/box2d/Contributions/Platforms/iPhone/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec
+
+PhaseScriptExecution "CMake PostBuild Rules" CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec.build/Script-5C706F4E69C84AF198426543.sh
+    cd /Users/mattetti/Code/RM/box2d/Contributions/Platforms/iPhone/CMakeFiles/CMakeTmp
+    /bin/sh -c /Users/mattetti/Code/RM/box2d/Contributions/Platforms/iPhone/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec.build/Script-5C706F4E69C84AF198426543.sh
+echo "Depend check for xcode"
+Depend check for xcode
+cd /Users/mattetti/Code/RM/box2d/Contributions/Platforms/iPhone/CMakeFiles/CMakeTmp && make -C /Users/mattetti/Code/RM/box2d/Contributions/Platforms/iPhone/CMakeFiles/CMakeTmp -f /Users/mattetti/Code/RM/box2d/Contributions/Platforms/iPhone/CMakeFiles/CMakeTmp/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.cmTryCompileExec.Debug
+make[1]: Nothing to be done for `PostBuild.cmTryCompileExec.Debug'.
+
+
+** BUILD SUCCEEDED **
+
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /Users/mattetti/Code/RM/box2d/Contributions/Platforms/iPhone/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/local/Cellar/cmake/2.8.7/bin/cmakexbuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTryCompileExec -configuration Debug
+2012-02-10 12:43:41.254 xcodebuild[46606:80b] Error loading /Users/mattetti/Library/Application Support/Developer/Shared/Xcode/Plug-ins/MacRubyXcodePlugin.xcplugin/Contents/MacOS/MacRubyXcodePlugin:  dlopen(/Users/mattetti/Library/Application Support/Developer/Shared/Xcode/Plug-ins/MacRubyXcodePlugin.xcplugin/Contents/MacOS/MacRubyXcodePlugin, 265): Library not loaded: /Library/Frameworks/MacRuby.framework/Versions/0.11/usr/lib/libmacruby.dylib
+  Referenced from: /Users/mattetti/Library/Application Support/Developer/Shared/Xcode/Plug-ins/MacRubyXcodePlugin.xcplugin/Contents/MacOS/MacRubyXcodePlugin
+  Reason: image not found
+2012-02-10 12:43:41.255 xcodebuild[46606:80b] WARNING: Failed to load plugin at: /Users/mattetti/Library/Application Support/Developer/Shared/Xcode/Plug-ins/MacRubyXcodePlugin.xcplugin, skipping.  Could not load bundle.
+=== BUILD NATIVE TARGET cmTryCompileExec OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+Check dependencies
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec.build/Objects-normal/x86_64/CMakeCCompilerABI.o ../../../../../../../../../../usr/local/Cellar/cmake/2.8.7/share/cmake/Modules/CMakeCCompilerABI.c normal x86_64 c com.apple.compilers.llvmgcc42
+    cd /Users/mattetti/Code/RM/box2d/Contributions/Platforms/iPhone/CMakeFiles/CMakeTmp
+    /Developer/usr/bin/llvm-gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 "-DCMAKE_INTDIR=\"Debug\"" -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.7 -gdwarf-2 -I/Users/mattetti/Code/RM/box2d/Contributions/Platforms/iPhone/CMakeFiles/CMakeTmp/Debug/include -I/Users/mattetti/Code/RM/box2d/Contributions/Platforms/iPhone/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec.build/DerivedSources/x86_64 -I/Users/mattetti/Code/RM/box2d/Contributions/Platforms/iPhone/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/mattetti/Code/RM/box2d/Contributions/Platforms/iPhone/CMakeFiles/CMakeTmp/Debug -c /Users/mattetti/Code/RM/box2d/Contributions/Platforms/iPhone/CMakeFiles/CMakeTmp/../../../../../../../../../../usr/local/Cellar/cmake/2.8.7/share/cmake/Modules/CMakeCCompilerABI.c -o /Users/mattetti/Code/RM/box2d/Contributions/Platforms/iPhone/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec.build/Objects-normal/x86_64/CMakeCCompilerABI.o
+
+Ld Debug/cmTryCompileExec normal x86_64
+    cd /Users/mattetti/Code/RM/box2d/Contributions/Platforms/iPhone/CMakeFiles/CMakeTmp
+    /Developer/usr/bin/llvm-gcc-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.7.sdk -L/Users/mattetti/Code/RM/box2d/Contributions/Platforms/iPhone/CMakeFiles/CMakeTmp/Debug -F/Users/mattetti/Code/RM/box2d/Contributions/Platforms/iPhone/CMakeFiles/CMakeTmp/Debug -filelist /Users/mattetti/Code/RM/box2d/Contributions/Platforms/iPhone/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec.build/Objects-normal/x86_64/cmTryCompileExec.LinkFileList -mmacosx-version-min=10.7 -v -Wl,-search_paths_first -Wl,-headerpad_max_install_names -o /Users/mattetti/Code/RM/box2d/Contributions/Platforms/iPhone/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec
+
+PhaseScriptExecution "CMake PostBuild Rules" CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec.build/Script-4C0977206D3445F48203DBDB.sh
+    cd /Users/mattetti/Code/RM/box2d/Contributions/Platforms/iPhone/CMakeFiles/CMakeTmp
+    /bin/sh -c /Users/mattetti/Code/RM/box2d/Contributions/Platforms/iPhone/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec.build/Script-4C0977206D3445F48203DBDB.sh
+echo "Depend check for xcode"
+Depend check for xcode
+cd /Users/mattetti/Code/RM/box2d/Contributions/Platforms/iPhone/CMakeFiles/CMakeTmp && make -C /Users/mattetti/Code/RM/box2d/Contributions/Platforms/iPhone/CMakeFiles/CMakeTmp -f /Users/mattetti/Code/RM/box2d/Contributions/Platforms/iPhone/CMakeFiles/CMakeTmp/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.cmTryCompileExec.Debug
+make[1]: Nothing to be done for `PostBuild.cmTryCompileExec.Debug'.
+
+
+** BUILD SUCCEEDED **
+
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /Users/mattetti/Code/RM/box2d/Contributions/Platforms/iPhone/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/local/Cellar/cmake/2.8.7/bin/cmakexbuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTryCompileExec -configuration Debug
+2012-02-10 12:43:41.894 xcodebuild[46677:80b] Error loading /Users/mattetti/Library/Application Support/Developer/Shared/Xcode/Plug-ins/MacRubyXcodePlugin.xcplugin/Contents/MacOS/MacRubyXcodePlugin:  dlopen(/Users/mattetti/Library/Application Support/Developer/Shared/Xcode/Plug-ins/MacRubyXcodePlugin.xcplugin/Contents/MacOS/MacRubyXcodePlugin, 265): Library not loaded: /Library/Frameworks/MacRuby.framework/Versions/0.11/usr/lib/libmacruby.dylib
+  Referenced from: /Users/mattetti/Library/Application Support/Developer/Shared/Xcode/Plug-ins/MacRubyXcodePlugin.xcplugin/Contents/MacOS/MacRubyXcodePlugin
+  Reason: image not found
+2012-02-10 12:43:41.894 xcodebuild[46677:80b] WARNING: Failed to load plugin at: /Users/mattetti/Library/Application Support/Developer/Shared/Xcode/Plug-ins/MacRubyXcodePlugin.xcplugin, skipping.  Could not load bundle.
+=== BUILD NATIVE TARGET cmTryCompileExec OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+Check dependencies
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec.build/Objects-normal/x86_64/testCXXCompiler.o testCXXCompiler.cxx normal x86_64 c++ com.apple.compilers.llvmgcc42
+    cd /Users/mattetti/Code/RM/box2d/Contributions/Platforms/iPhone/CMakeFiles/CMakeTmp
+    /Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 "-DCMAKE_INTDIR=\"Debug\"" -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.7 -I/Users/mattetti/Code/RM/box2d/Contributions/Platforms/iPhone/CMakeFiles/CMakeTmp/Debug/include -I/Users/mattetti/Code/RM/box2d/Contributions/Platforms/iPhone/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec.build/DerivedSources/x86_64 -I/Users/mattetti/Code/RM/box2d/Contributions/Platforms/iPhone/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/mattetti/Code/RM/box2d/Contributions/Platforms/iPhone/CMakeFiles/CMakeTmp/Debug -g -c /Users/mattetti/Code/RM/box2d/Contributions/Platforms/iPhone/CMakeFiles/CMakeTmp/testCXXCompiler.cxx -o /Users/mattetti/Code/RM/box2d/Contributions/Platforms/iPhone/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec.build/Objects-normal/x86_64/testCXXCompiler.o
+
+Ld Debug/cmTryCompileExec normal x86_64
+    cd /Users/mattetti/Code/RM/box2d/Contributions/Platforms/iPhone/CMakeFiles/CMakeTmp
+    /Developer/usr/bin/llvm-g++-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.7.sdk -L/Users/mattetti/Code/RM/box2d/Contributions/Platforms/iPhone/CMakeFiles/CMakeTmp/Debug -F/Users/mattetti/Code/RM/box2d/Contributions/Platforms/iPhone/CMakeFiles/CMakeTmp/Debug -filelist /Users/mattetti/Code/RM/box2d/Contributions/Platforms/iPhone/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec.build/Objects-normal/x86_64/cmTryCompileExec.LinkFileList -mmacosx-version-min=10.7 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -o /Users/mattetti/Code/RM/box2d/Contributions/Platforms/iPhone/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec
+
+PhaseScriptExecution "CMake PostBuild Rules" CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec.build/Script-E0FEAEEB75114982A91161FA.sh
+    cd /Users/mattetti/Code/RM/box2d/Contributions/Platforms/iPhone/CMakeFiles/CMakeTmp
+    /bin/sh -c /Users/mattetti/Code/RM/box2d/Contributions/Platforms/iPhone/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec.build/Script-E0FEAEEB75114982A91161FA.sh
+echo "Depend check for xcode"
+Depend check for xcode
+cd /Users/mattetti/Code/RM/box2d/Contributions/Platforms/iPhone/CMakeFiles/CMakeTmp && make -C /Users/mattetti/Code/RM/box2d/Contributions/Platforms/iPhone/CMakeFiles/CMakeTmp -f /Users/mattetti/Code/RM/box2d/Contributions/Platforms/iPhone/CMakeFiles/CMakeTmp/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.cmTryCompileExec.Debug
+make[1]: Nothing to be done for `PostBuild.cmTryCompileExec.Debug'.
+
+
+** BUILD SUCCEEDED **
+
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /Users/mattetti/Code/RM/box2d/Contributions/Platforms/iPhone/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/local/Cellar/cmake/2.8.7/bin/cmakexbuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTryCompileExec -configuration Debug
+2012-02-10 12:43:42.510 xcodebuild[46738:80b] Error loading /Users/mattetti/Library/Application Support/Developer/Shared/Xcode/Plug-ins/MacRubyXcodePlugin.xcplugin/Contents/MacOS/MacRubyXcodePlugin:  dlopen(/Users/mattetti/Library/Application Support/Developer/Shared/Xcode/Plug-ins/MacRubyXcodePlugin.xcplugin/Contents/MacOS/MacRubyXcodePlugin, 265): Library not loaded: /Library/Frameworks/MacRuby.framework/Versions/0.11/usr/lib/libmacruby.dylib
+  Referenced from: /Users/mattetti/Library/Application Support/Developer/Shared/Xcode/Plug-ins/MacRubyXcodePlugin.xcplugin/Contents/MacOS/MacRubyXcodePlugin
+  Reason: image not found
+2012-02-10 12:43:42.510 xcodebuild[46738:80b] WARNING: Failed to load plugin at: /Users/mattetti/Library/Application Support/Developer/Shared/Xcode/Plug-ins/MacRubyXcodePlugin.xcplugin, skipping.  Could not load bundle.
+=== BUILD NATIVE TARGET cmTryCompileExec OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+Check dependencies
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec.build/Objects-normal/x86_64/CMakeCXXCompilerABI.o ../../../../../../../../../../usr/local/Cellar/cmake/2.8.7/share/cmake/Modules/CMakeCXXCompilerABI.cpp normal x86_64 c++ com.apple.compilers.llvmgcc42
+    cd /Users/mattetti/Code/RM/box2d/Contributions/Platforms/iPhone/CMakeFiles/CMakeTmp
+    /Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 "-DCMAKE_INTDIR=\"Debug\"" -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.7 -I/Users/mattetti/Code/RM/box2d/Contributions/Platforms/iPhone/CMakeFiles/CMakeTmp/Debug/include -I/Users/mattetti/Code/RM/box2d/Contributions/Platforms/iPhone/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec.build/DerivedSources/x86_64 -I/Users/mattetti/Code/RM/box2d/Contributions/Platforms/iPhone/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/mattetti/Code/RM/box2d/Contributions/Platforms/iPhone/CMakeFiles/CMakeTmp/Debug -g -c /Users/mattetti/Code/RM/box2d/Contributions/Platforms/iPhone/CMakeFiles/CMakeTmp/../../../../../../../../../../usr/local/Cellar/cmake/2.8.7/share/cmake/Modules/CMakeCXXCompilerABI.cpp -o /Users/mattetti/Code/RM/box2d/Contributions/Platforms/iPhone/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec.build/Objects-normal/x86_64/CMakeCXXCompilerABI.o
+
+Ld Debug/cmTryCompileExec normal x86_64
+    cd /Users/mattetti/Code/RM/box2d/Contributions/Platforms/iPhone/CMakeFiles/CMakeTmp
+    /Developer/usr/bin/llvm-g++-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.7.sdk -L/Users/mattetti/Code/RM/box2d/Contributions/Platforms/iPhone/CMakeFiles/CMakeTmp/Debug -F/Users/mattetti/Code/RM/box2d/Contributions/Platforms/iPhone/CMakeFiles/CMakeTmp/Debug -filelist /Users/mattetti/Code/RM/box2d/Contributions/Platforms/iPhone/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec.build/Objects-normal/x86_64/cmTryCompileExec.LinkFileList -mmacosx-version-min=10.7 -v -Wl,-search_paths_first -Wl,-headerpad_max_install_names -o /Users/mattetti/Code/RM/box2d/Contributions/Platforms/iPhone/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec
+
+PhaseScriptExecution "CMake PostBuild Rules" CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec.build/Script-740C587AE19F400F92470203.sh
+    cd /Users/mattetti/Code/RM/box2d/Contributions/Platforms/iPhone/CMakeFiles/CMakeTmp
+    /bin/sh -c /Users/mattetti/Code/RM/box2d/Contributions/Platforms/iPhone/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec.build/Script-740C587AE19F400F92470203.sh
+echo "Depend check for xcode"
+Depend check for xcode
+cd /Users/mattetti/Code/RM/box2d/Contributions/Platforms/iPhone/CMakeFiles/CMakeTmp && make -C /Users/mattetti/Code/RM/box2d/Contributions/Platforms/iPhone/CMakeFiles/CMakeTmp -f /Users/mattetti/Code/RM/box2d/Contributions/Platforms/iPhone/CMakeFiles/CMakeTmp/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.cmTryCompileExec.Debug
+make[1]: Nothing to be done for `PostBuild.cmTryCompileExec.Debug'.
+
+
+** BUILD SUCCEEDED **
+
+
+
